@@ -18,7 +18,7 @@ class Asignatura extends CI_Controller {
 		//$config['total_rows'] = '20';
 		//$config['per_page'] = '20';
 		//$this->pagination->initialize($config);
-		//echo $this->pagination->create_links();
+
 
 		$data['contenido'] = 'asignatura/index';
 		$data['titulo'] = 'Asignatura';
