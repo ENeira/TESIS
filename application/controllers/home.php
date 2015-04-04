@@ -19,8 +19,6 @@ class Home extends CI_Controller {
 		$this->load->model('model_carrera');
 
 		$this->form_validation->set_message('required','Debe ingresar un valor un valor para %s');
-	//	$this->form_validation->set_message('norepnom','Existe otro registro con el mismo nombre');
-	//	$this->form_validation->set_message('noreprut','Existe otro registro con el mismo rut');
 		$this->form_validation->set_message('loginok','Usuario y/o Clave incorrectos');
 		$this->form_validation->set_message('valid_email','El campo %s debe ser un email correcto');
 	}
