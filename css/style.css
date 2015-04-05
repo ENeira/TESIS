@@ -1,0 +1,81 @@
+body {
+	background: white;
+}
+
+#menu {
+	background: white;
+	float: left;
+	background: none repeat scroll 0% 0% #0055AD;
+	margin: 2px 0px 0px 0px;
+	padding: 2px;
+	width: 100%;
+}
+
+#menu h3{
+	text-align: right;
+	color: white;
+}
+
+#menu #marca {
+	width: 161px;
+	height: 75px;
+	float: left;
+	background: url("http://localhost/~Diozel/Tesis/img/logo.png") no-repeat scroll 0% 0% transparent;
+
+}
+#menu #carrera {
+	width: 500px;
+	height: 75px;
+	float: right;
+	background: url("http://localhost/~Diozel/Tesis/img/logodecom.png") no-repeat scroll 0% 0% transparent;
+}
+
+#menu2 {
+	background: none repeat scroll 0% 0% #0055AD;
+	width: 100%;
+	padding: 8px 0px;
+	margin: 0px auto;
+	clear: both;
+	font-family: "Source Sans Pro";
+	font-weight: 400;
+	border-top: 2px solid white;
+	position: relative;
+	text-align: center;
+}
+
+#menu2 a{
+	text-decoration: none;
+	color: #BBB;
+	margin: 4px;
+	font-size: 18px;
+}
+
+#menu2 a:hover{
+	color: white;
+}
+
+footer {
+	background: none repeat scroll 0% 0% #0055AD;
+	color: rgba(255, 255, 255, 0.7);
+	padding: 1em;
+	text-align: center;
+	clear: sboth;
+}
+
+footer a{
+	text-decoration: none;
+}
+footer a span{
+	color: white;
+	font-size: 30px;
+	padding: 6px;
+}
+
+footer span:hover{
+	color: yellow;
+}
+
+
+
+
+
